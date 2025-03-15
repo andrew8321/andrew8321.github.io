@@ -139,3 +139,21 @@
   span.highlight {
     background-color: #ffffd0;
   }
+
+  /* 모든 리스트 항목의 줄 간격 조정 */
+ul, ol {
+  padding-left: 35px;  /* 들여쓰기 유지 */
+}
+
+li {
+  margin-bottom: 5px; /* 리스트 항목 간격 */
+  line-height: 1.5; /* 줄 간격을 늘려 가독성 향상 */
+}
+
+li li {
+  margin-bottom: 3px; /* 중첩 리스트 간격 */
+}
+
+li li li {
+  margin-bottom: 2px; /* 더 깊은 중첩 리스트 간격 */
+}
